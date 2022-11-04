@@ -17,7 +17,7 @@ public class questao1 {
 		
 		Scanner teclado = new Scanner(System.in);
 		
-		for (;c < 4;c++) {
+		for (;c < vendedor.length;c++) {
 			
 			System.out.print("Insira o seu nome: ");
 			vendedor[c] = teclado.next();
