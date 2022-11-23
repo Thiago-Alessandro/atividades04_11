@@ -13,7 +13,7 @@ public class questao3 {
 		Random temperaturaDia = new Random();
 		
 		for (int contador = 0;contador < temperaturas.length;contador++) {
-			temperaturas[contador] = temperaturaDia.nextInt(40);
+			temperaturas[contador] = temperaturaDia.nextInt(41);
 			
 			if (temperaturas[contador] < 15) {
 				contador--;
@@ -30,10 +30,10 @@ public class questao3 {
 		}
 		temperaturaMedia = somaTemperaturas/temperaturas.length;
 		
-		System.out.print("\nA média das temperaturas é: " + temperaturaMedia + "°C");
+		System.out.print("\nA mÃ©dia das temperaturas Ã©: " + temperaturaMedia + "Â°C");
 		
-		System.out.print("\n\nA temperatura mais alta registrada é de: " + maiorTemperatura + "°C");
-		System.out.print("\nA temperatura mais baixa registrada é de: " + menorTemperatura + "°C");
+		System.out.print("\n\nA temperatura mais alta registrada Ã© de: " + maiorTemperatura + "Â°C");
+		System.out.print("\nA temperatura mais baixa registrada Ã© de: " + menorTemperatura + "Â°C");
 	}
 
 }
