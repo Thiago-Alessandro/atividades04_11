@@ -37,4 +37,3 @@ public class questao3 {
 	}
 
 }
-//(26) + 15 fellipe e gabriel
