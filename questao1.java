@@ -25,7 +25,7 @@ public class questao1 {
 			System.out.println("Insira o total de suas vendas: R$");
 			totalVendas[c] = teclado.nextDouble();
 			
-			System.out.print("Insira o seu percentual de comiss„o sobre as vendas: ");
+			System.out.print("Insira o seu percentual de comiss√£o sobre as vendas: ");
 			percentualComissao[c] = teclado.nextDouble();
 			
 			valorReceber[c] = totalVendas[c] * percentualComissao[c]/100;
@@ -42,10 +42,10 @@ public class questao1 {
 			 }
 		}
 		for (;c2 < vendedor.length;c2++) {
-		System.out.print("\n\nO(a) vendedor(a) " + vendedor[c2] + " receber· R$" + valorReceber[0] );
-		
-		System.out.print("\n\nO maior valor a receber È: R$" + maiorValor + " do vendedor " + nomeMaiorValorReceber);
-		System.out.print("\nO menor valor a receber È: R$" + menorValor + " do vendedor " + nomeMenorValorReceber);
+		System.out.print("\n\nO(a) vendedor(a) " + vendedor[c2] + " receber√° R$" + valorReceber[c2] );
+		}
+		System.out.print("\n\nO maior valor a receber √©: R$" + maiorValor + " do vendedor " + nomeMaiorValorReceber);
+		System.out.print("\nO menor valor a receber √©: R$" + menorValor + " do vendedor " + nomeMenorValorReceber);
 		}
 	}
 
