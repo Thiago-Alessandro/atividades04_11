@@ -10,14 +10,14 @@ public class questao4 {
 		
 		Scanner teclado = new Scanner(System.in);
 		
-		System.out.print("Quantos nomes você quer colocar?\n");
+		System.out.print("Quantos nomes vocÃª quer colocar?\n");
 		quantidadeNomes = teclado.nextInt();
 		
 		String[] nomes = new String[quantidadeNomes];
 		
 		for (int inicializador = 0;escolha != 0 || inicializador == 0;inicializador++) {
 			
-			System.out.println("\n\tMENU1\n1 - Cadastrar nome\n2 - Pesquisar nome\n3 - Listar todos os nomes\n0 - Sair do programa\n");
+			System.out.println("\n\n\tMENU\n1 - Cadastrar nome\n2 - Pesquisar nome\n3 - Listar todos os nomes\n0 - Sair do programa\n");
 			escolha= teclado.nextInt();
 			
 			switch(escolha) {
@@ -32,7 +32,7 @@ public class questao4 {
 				
 			case 2:
 				
-				System.out.print("\nInsira o número do nome: ");
+				System.out.print("\nInsira o nÃºmero do nome: ");
 				numeroNome = teclado.nextInt();
 				System.out.print("\n\n" + numeroNome + " - " + nomes[numeroNome]);
 				
